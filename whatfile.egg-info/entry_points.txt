@@ -1,2 +1,0 @@
-[console_scripts]
-whatfile = whatfile.__main__:main
