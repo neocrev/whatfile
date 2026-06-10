@@ -22,29 +22,7 @@ whatfile photo.jpg song.mp3 video.mp4 archive.zip document.pdf script.py
 
 ## Quick demo
 
-```text
-╭─ photo.jpg ─────────────────────╮
-│      Size: 1.2 MB            │
-│      Type: JPEG              │
-│     Width: 1920              │
-│    Height: 1080              │
-│      Mode: RGB               │
-│  Modified: 2025-12-01 14:23  │
-╰────────────────────────────────╯
-
-╭─ song.mp3 ──────────────────────╮
-│        Size: 8.4 MB          │
-│        Type: MP3             │
-│    Duration: 3:42            │
-│     Bitrate: 320 kbps        │
-│  Sample rate: 44100 Hz       │
-│        Codec: mp3            │
-│        Title: Midnight Blue  │
-│       Artist: neocrev        │
-│        Album: Night Drive    │
-│    Modified: 2025-12-01 14:23│
-╰────────────────────────────────╯
-```
+<img src="assets/whatfile-demo.svg" alt="whatfile terminal demo" width="600">
 
 ## Backends
 
@@ -70,26 +48,6 @@ whatfile ~/Music/*.flac
 
 # All files in directory
 whatfile ~/Downloads/*
-```
-
-```text
-╭─ archive.zip ───────────────────╮
-│          Size: 494 B         │
-│          Type: ZIP           │
-│         Files: 2             │
-│    Compressed: 494 B         │
-│  Uncompressed: 300 B         │
-│      Modified: 2026-06-10 21:16│
-╰─────────────────────────────────╯
-
-╭─ report.pdf ────────────────────╮
-│        Size: 2.1 MB          │
-│        Type: PDF 2.0         │
-│       Pages: 42              │
-│       Title: Annual Report   │
-│      Author: Jane Doe        │
-│    Modified: 2026-06-10 21:16│
-╰─────────────────────────────────╯
 ```
 
 ## How it works
