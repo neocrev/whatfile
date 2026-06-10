@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "whatfile"
+version = "1.0.0"
+description = "Show detailed metadata for any file — images, audio, video, archives, PDFs, and more"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "neocrev" }]
+keywords = ["file", "metadata", "info", "cli", "utility"]
+requires-python = ">=3.9"
+
+[project.scripts]
+whatfile = "whatfile.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["whatfile*"]
